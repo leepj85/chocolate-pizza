@@ -6,10 +6,14 @@
 body {
   width: 905px;
   height: 1000px;
+  margin-left: 19%;
+  margin-right: 19%;
 }
+
 nav {
   overflow: hidden;
   height: 50px;
+  margin-bottom: 100px;
 }
 
 
@@ -24,9 +28,11 @@ nav > ul {
   position: absolute;
 
 }
-/* nav > ul > li {
-  float: left;
-} */
+
+nav p {
+  color: darkgray;
+  font-size: 11px;
+}
 
 #nav-left > li {
   float: left;
@@ -34,5 +40,33 @@ nav > ul {
 
 #nav-right > ul > li {
   float: right;
+}
+
+#title-section {
+
+}
+
+#title-left {
+  float: left;
+}
+
+#title-right {
+  float: right;  
+}
+
+#title-h1 {
+  font-size: 40px; 
+  font-family: sans-serif;
+  font-style: bold;
+}
+
+#title-left p {
+  color: darkgray;
+  font-size: 12px;
+}
+
+#title-right p {
+  color: darkgray;
+  font-size: 12px;
 }
 
