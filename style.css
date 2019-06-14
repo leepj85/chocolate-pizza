@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  width: 905px;
+  height: 1000px;
+}
+nav {
+  overflow: hidden;
+  height: 50px;
+}
+
+
+nav h1 {
+  font-family: cursive;
+  font-size: 35px;
+  font-style: italic;
+  
+}
+
+nav > ul {
+  position: absolute;
+
+}
+/* nav > ul > li {
+  float: left;
+} */
+
+#nav-left > li {
+  float: left;
+}
+
+#nav-right > ul > li {
+  float: right;
+}
+
